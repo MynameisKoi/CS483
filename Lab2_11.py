@@ -1,4 +1,4 @@
-import numps as np 
+import numpy as np 
 import matplotlib.pyplot as plt 
  
 x=np.arange(0,3*np.pi,0.1) 
@@ -6,8 +6,7 @@ y=np.sin(x)
 plt.plot(x,y) 
 plt.show() 
  
-# Create a 6x6 2-dim array, and let 1 and 0 be placed alternatively across the 
-diagonals 
+# Create a 6x6 2-dim array, and let 1 and 0 be placed alternatively across the diagonals 
  
 z=np.zeros((6,6),dtype=int)) 
 z[1::2, ::2] = 1 # 1st:last:step 
