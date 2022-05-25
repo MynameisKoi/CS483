@@ -1,3 +1,5 @@
+import numpy as np
+
 for x in np.nditer(a, order="C"): # In c seq iteration 
   print(x) 
  
