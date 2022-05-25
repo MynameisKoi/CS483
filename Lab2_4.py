@@ -3,5 +3,5 @@ b=np.array([10, 10, 10])
  
 np.add(a,b) 
 np.subtract(a,b) 
-np.mutiply(a,b) 
+np.multiply(a,b) 
 np.divide(a,b)
