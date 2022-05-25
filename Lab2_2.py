@@ -1,4 +1,4 @@
-mport numpy as np 
+import numpy as np 
 import matplotlib.pyplot as plt 
  
 np.random.seed(4500) # Create the same group number of random number 
