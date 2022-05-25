@@ -1,3 +1,5 @@
+import numpy as np
+
 a=np.arange(20) 
 a[4:]   # from ind4 to the end 
 a[:4]   # from 1st to ind4 
